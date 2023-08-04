@@ -2,7 +2,9 @@
 """
 This module contains a function that calculates the sum of two numbers.
 """
-def sum(x: float, y: float) -> float:
+
+
+def sum(a: float, b: float) -> float:
     """
     Calculate the sum of two numbers.
     
@@ -13,4 +15,5 @@ def sum(x: float, y: float) -> float:
     Returns:
         float: The sum of the two numbers.
     """
-    return x + y
+ 
+    return a + b
