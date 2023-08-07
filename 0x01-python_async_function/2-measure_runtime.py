@@ -7,7 +7,7 @@ import typing Callable
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
-def measure_time(n: int, max_delay: float, func: Callable) -> float:
+def measure_time(n: int, max_delay: int, func: Callable) -> float:
     """ Measures the average execution time for a given function """
 
     start_time = time.time()
