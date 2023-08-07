@@ -3,7 +3,8 @@
 
 
 import time
-import typing Callable
+import asyncio
+from typing import Callable
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
