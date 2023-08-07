@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" """
+""" this module spawns wait random n times """
 
 
 import asyncio
